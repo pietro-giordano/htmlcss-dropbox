@@ -1,32 +1,91 @@
- /* RESET  */
- * {
+/* RESET  */
+* {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
- }
+}
 
-  /* REGOLE GENERALI  */
-  /* .container {
-      width: ; 
+/* REGOLE GENERALI  */
+body {
+
+}
+
+.container {
+      width: 100%; 
       margin: 0 auto;
-  } */
+}
 
-   /* HEADER  */
+.container2 {
+      max-width: 1100px;
+      margin: 0 auto;
+}
 
-    /* MAIN  */
+.container {
+      max-width: 1000px;
+      margin: 0 auto;
+}
 
-     /* FOOTER  */
+/* HEADER  */
+nav {
+      display: flex;
+      justify-content: space-between;
+      height: 60px;
+}
+
+.nav-left, .nav-right {
+      width: 30%;
+}
+
+/* MAIN  */
+.jumbotron {
+      width: 100%;
+      height: 600px;
+}
+
+/* .header-bottom {
+      height: 110%;
+} */
+
+h1 {
+      padding-top: 60px;
+}
+
+.header-content {
+      display: flex;
+}
+
+.header-content img {
+      width: 700px;
+      height: 550px;
+      background-color: green;
+}
+/* FOOTER  */
 
 
-      /* DEBUG  */
-            .border {
-                  border: 2px dashed black;
-            }
-      
-            .box {
-                  background-color: aquamarine;
-            }
+/* DEBUG  */
+.border {
+      border: 2px dashed black;
+}
 
-            .box2 {
-                  background-color: yellow;
-            }
+.aqua {
+      background-color: aquamarine;
+}
+
+.yellow {
+      background-color: yellow;
+}
+
+.red {
+      background-color: red;
+}
+
+.blue {
+      background-color: blue;
+}
+
+.orange {
+      background-color: orange;
+}
+.green {
+      background-color: green;
+}
