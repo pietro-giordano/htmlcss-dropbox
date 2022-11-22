@@ -198,7 +198,12 @@ main {
 }
 
 .container-card ul li {
+      display: flex;
       padding: 5px 0;
+}
+
+.container-card ul li i {
+      padding: 3px 5px 0 0;
 }
 
 .price-card button {
@@ -276,14 +281,154 @@ main {
 }
 
 /* function */
-.main-function {
-      height: 700px;
+.main-function h2 {
+      font-size: 30px;
+      padding: 15px 0;
 }
 
-.main-squares {
-      height: 700px;
+.function-row {
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
 }
 
+.function-box {
+      width: 32%;
+      margin: 30px 0;
+}
+
+.function-box img {
+      width: 100%;
+}
+
+.function-box h3 {
+      font-size: 20px;
+      padding: 10px 0;
+}
+
+.function-box p {
+      font-size: 14px;
+      padding: 10px 0;
+}
+
+/* customers */
+.main-customers {
+      font-size: 14px;
+}
+
+.customers-top {
+      margin: 100px auto;
+}
+
+.customers-top h2 {
+      font-size: 30px;
+      padding-bottom: 35px;
+}
+
+.customers-top a {
+      color: #0061ff;
+}
+
+.customers-middle {
+      display: flex;
+}
+
+.cust-big-box {
+      width: calc(100%/3);
+      height: calc(100vw/3);
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.cust-box {
+      width: 50%;
+      height: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.cust-box img {
+      width: 50%;
+      filter: invert(99%) sepia(0%) saturate(0%) hue-rotate(134deg) brightness(115%) contrast(101%);
+}
+
+.mid-big-box {
+      width: calc(100%/3);
+      height: calc(100vw/3);
+      background-color: #f5f5f5;
+      padding: 30px;
+      overflow: auto;
+}
+
+.mid-big-box img {
+      width: 50%;
+      margin-bottom: 30px;
+}
+
+.mid-big-box hr {
+      margin-bottom: 30px;
+      width: 20%;
+}
+
+.mid-big-box p {
+      padding-bottom: 40px;
+}
+
+.cust-box1{
+      background-color: #a2d39b;
+      border: 10px solid #d1e9cd;
+}
+
+.cust-box2 {
+      background-color: #61082b;
+}
+
+.cust-box3 {
+      background-color: #0093ce;
+}
+
+.cust-box4 {
+      background-color: #ff1c1c;
+}
+
+.cust-box5 {
+      background-color: #d5001f;
+}
+
+.cust-box6 {
+      background-color: #b4d0e7;
+}
+
+.cust-box7 {
+      background-color: #0d2481;
+}
+
+.cust-box8 {
+      background-color: #ffd830;
+}
+
+.customers-bottom {
+      padding: 100px;
+      background-color: #b4d0e7;
+}
+
+.cust-bottom-cont {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+}
+
+.cust-bottom-cont h2 {
+      font-size: 30px;
+      color: #690529;
+}
+
+.cust-bottom-cont button {
+      padding: 10px 40px;
+}
+
+/* faq */
 .main-faq {
       height: 700px;
 }
