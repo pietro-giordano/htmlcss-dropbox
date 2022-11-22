@@ -24,11 +24,11 @@ body {
       font-size: 14px;
       color: white;
       background-color: #0061ff;
-      padding: 5px 12px;
       border: none;
 }
 
 /* HEADER  */
+ /* nav  */
 nav {
       display: flex;
       justify-content: space-between;
@@ -56,6 +56,7 @@ nav {
 
 .nav-right button {
       margin-right: 15px;
+      padding: 5px 12px;
 }
 
 .nav-left ul, .nav-right ul {
@@ -70,18 +71,21 @@ nav {
       font-size: 14px;
 }
 
+ /* jumbotron  */
 .jumbotron {
       width: 100%;
       margin-top: 60px;
-      height: 600px;
+      height: 550px;
+      background-color: #b4d0e7;
 }
 
-/* .header-bottom {
-      height: 110%;
-} */
-
 h1 {
-      padding-top: 60px;
+      padding-top: 50px;
+      padding-bottom: 35px;
+      font-size: 60px;
+      font-family: 'Kanit', sans-serif;
+      font-weight: 900;
+      line-height: 1.3;
 }
 
 .header-bottom {
@@ -90,15 +94,31 @@ h1 {
 
 .header-content {
       width: 35%;
+      font-size: 14px;
+}
+
+.header-content button {
+      padding: 10px 12px;
+      margin: 25px 0;
+}
+
+.header-content a i {
+      position: relative;
+      top: 45px;
+      color: black;
 }
 
 .header-bottom img {
-      width: 75%;
-      /* height: 550px; */
-      background-color: green;
+      width: 65%;
 }
+
 /* MAIN  */
-.main-business {
+main {
+      margin-top: 100px;
+}
+
+/* price list */
+.main-price-list {
       height: 700px;
 }
 
