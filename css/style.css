@@ -16,7 +16,7 @@ body {
 }
 
 .container2 {
-      max-width: 900px;
+      max-width: 850px;
       margin: 0 auto;
 }
 
@@ -120,6 +120,10 @@ main {
 /* price list */
 .main-price-list {
       height: 700px;
+}
+
+.fa-regular.fa-circle {
+      color: #d2d2d5;
 }
 
 .main-partner {
