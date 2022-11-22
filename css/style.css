@@ -27,6 +27,10 @@ body {
       border: none;
 }
 
+ul {
+      list-style: none;
+}
+
 /* HEADER  */
  /* nav  */
 nav {
@@ -119,13 +123,106 @@ main {
 
 /* price list */
 .main-price-list {
-      height: 700px;
+      font-size: 13px;
+}
+
+.main-price-list h2 {
+      font-size: 30px;
+      padding: 10px 0;
+}
+
+.billing {
+      margin: 30px 0;
+}
+
+.billing span {
+      margin-right: 30px;
 }
 
 .fa-regular.fa-circle {
       color: #d2d2d5;
 }
 
+.price-card-top {
+      display: flex;
+      justify-content: space-between;
+}
+
+.price-card {
+      width: 30%;
+}
+
+.price-card-bottom {
+      width: 100%;
+      height: 200px;
+      margin-top: 40px;
+}
+
+.price-card, .price-card-bottom {
+      border: 1px solid #dadadd;
+}
+
+.container-card {
+      width: 80%;
+      margin: 0 auto;
+}
+
+.user-price-card {
+      text-align: center;
+      padding: 7px;
+      border-bottom: 1px solid #dadadd;
+}
+
+.container-card h3 {
+      font-size: 20px;
+      padding: 20px 0 10px;
+}
+
+.container-card .price {
+      font-weight: bold;
+      padding: 5px 0;
+}
+
+.container-card .period {
+      color: #dadadd;
+      padding-top: 5px;
+}
+
+.container-card ul {
+      margin: 20px 0;
+}
+
+.container-card ul li {
+      padding: 5px 0;
+}
+
+.price-card button {
+      padding: 10px 12px;
+      width: 100%;
+}
+
+.buy-now {
+      padding: 30px 0;
+}
+
+.buy-now a {
+      color: #0061ff;
+}
+
+.container-card hr {
+      width: 50px;
+      border: 1px solid #dadadd;
+      margin-bottom: 20px;
+      background-color: #dadadd;
+}
+
+.checked-list li::before {
+      content: "\2714";
+      color: #0261ff;
+      padding: 5px;
+}
+
+/* ----------- */
 .main-partner {
       height: 700px;
 }
