@@ -154,8 +154,23 @@ main {
       margin-right: 30px;
 }
 
-.fa-regular.fa-circle {
-      color: #d2d2d5;
+.billing span div {
+      vertical-align: middle;
+      display: inline-block;
+}
+
+.circle {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+}
+
+.circle.blue {
+      border: 4px solid #0061ff;
+}
+
+.circle.lightgray {
+      border: 2px solid #d2d2d5;
 }
 
 .price-card-top {
@@ -514,7 +529,7 @@ footer {
 }
 
 /* DEBUG  */
-.border {
+/* .border {
       border: 2px dashed black;
 }
 
@@ -539,4 +554,4 @@ footer {
 }
 .green {
       background-color: green;
-}
+} */
