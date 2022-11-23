@@ -25,6 +25,7 @@ body {
       color: white;
       background-color: #0061ff;
       border: none;
+      cursor: pointer;
 }
 
 .white-button {
@@ -32,6 +33,7 @@ body {
       color: black;
       background-color: white;
       border: none;
+      cursor: pointer;
 }
 
 ul {
@@ -63,6 +65,7 @@ nav {
       border: none;
       display: flex;
       align-items: center;
+      cursor: pointer;
 }
 
 .nav-right button {
@@ -80,6 +83,11 @@ nav {
       color: black;
       padding: 20px 15px;
       font-size: 14px;
+}
+
+.nav-left ul li a:hover, .nav-right ul li a:hover {
+      box-shadow: inset 0px 0px 20px 5px #d2d2d5;
+      /* border-bottom: 2px solid black; */
 }
 
  /* jumbotron  */
@@ -115,7 +123,7 @@ h1 {
 
 .header-content a i {
       position: relative;
-      top: 45px;
+      top: 55px;
       color: black;
 }
 
@@ -130,7 +138,7 @@ main {
 
 /* price list */
 .main-price-list {
-      font-size: 13px;
+      font-size: 12px;
 }
 
 .main-price-list h2 {
@@ -221,15 +229,13 @@ main {
 
 .container-card hr {
       width: 50px;
-      border: 1px solid #dadadd;
       margin-bottom: 20px;
-      background-color: #dadadd;
+      border: none;
+      border-top: 1px solid #dadadd;
 }
 
-.checked-list li::before {
-      content: "\2714";
+.checked-list li i {
       color: #0261ff;
-      padding: 5px;
 }
 
 .price-card-bottom .container-card {
@@ -369,6 +375,8 @@ main {
 .mid-big-box hr {
       margin-bottom: 30px;
       width: 20%;
+      border: none;
+      border-top: 1px solid #dadadd;
 }
 
 .mid-big-box p {
@@ -430,7 +438,29 @@ main {
 
 /* faq */
 .main-faq {
-      height: 700px;
+      margin: 100px auto;
+}
+
+.main-faq h2 {
+      font-size: 30px;
+      margin-bottom: 40px;
+}
+
+.main-faq hr {
+      border: none;
+      border-top: 1px solid #dadadd;
+}
+
+.question {
+      font-weight: bold;
+      display: flex;
+      padding: 30px 0;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.question i {
+      margin-right: 30px;
 }
 
 /* FOOTER  */
@@ -467,9 +497,14 @@ footer {
       font-size: 13px;
 }
 
+.footer-bottom hr {
+      border: none;
+      border-top: 1px solid white;
+      width: 100px;
+}
+
 .language {
       padding: 40px 0;
-      border-top: 1px solid white;
 }
 
 .language a {
