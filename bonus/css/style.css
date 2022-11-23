@@ -6,6 +6,10 @@
 }
 
 /* REGOLE GENERALI  */
+html {
+      scroll-behavior: smooth;
+}
+
 body {
       font-family: 'Noto Sans', sans-serif;
 }
@@ -120,14 +124,6 @@ h1 {
       padding: 10px 12px;
       margin: 25px 0;
 }
-
-/* .header-content a {
-      transition: all 5s linear;
-}
-
-.header-content a:active {    
-
-} */
 
 .header-content a i {
       position: relative;
