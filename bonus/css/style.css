@@ -94,6 +94,37 @@ nav {
       /* border-bottom: 2px solid black; */
 }
 
+/* BONUS ATTENZIONE */
+.bonus {
+      display: none;
+      position: fixed;
+      top: 60px;
+      left: 155px;
+      z-index: 2;
+      font-size: 14px;
+}
+
+.bonus-list { 
+      display: flex;
+      flex-direction: column;
+}
+
+.bonus-list li a {
+      cursor: pointer;
+      width: 200px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: white;
+      border: 1px solid black;
+}
+
+.cosa-brutta:hover .bonus {
+      display: inline-block;
+}
+/* FINE BONUS */
+
  /* jumbotron  */
 .jumbotron {
       width: 100%;
